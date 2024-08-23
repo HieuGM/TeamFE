@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('images/mau-background-dep\ \(1\).jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Làm cho nền bảng hơi trong suốt */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 15px rgba(64, 64, 64, 0.7);
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+table thead {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    padding: 12px 15px;
+    word-wrap: break-word;
+    /* Đảm bảo từ dài được ngắt để xuống dòng */
+    word-break: keep-all;
+    /* Đảm bảo văn bản dài không vượt quá giới hạn ô */
+    max-width: 130px;
+    /* Giới hạn chiều rộng của ô để ép xuống dòng */
+}
+
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
